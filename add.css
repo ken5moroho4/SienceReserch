@@ -2,15 +2,23 @@ body {
     background-color: rgb(193, 209, 224);
   }
 h1{
-   color: rgb(191, 250, 189); 
+   color: rgb(92, 241, 87); 
    text-align: center;
+   font-size:6em;
+   line-height:0.95em;
+   font-weight:bold;
+   text-shadow: 0 0 0.2em rgba(0,0,0,1);
   }
 .first_left{
     color: rgb(239, 229, 203); 
     padding: 0.5em 1em;
-    margin: 10px 500px 20px 0;;
+    padding: 10px 500px 20px 0;;
     font-weight: bold;
     border: solid 3px #000000;
+    background-image:url(study.jpg) ; 
+    background-position: right; 
+    background-size: 50%;
+    background-repeat:  no-repeat; 
 }
 .first_left h2,h4{
     line-height: 0.5;
@@ -18,9 +26,13 @@ h1{
 .second_right{
   text-align: right;
   padding: 0.5em 1em;
-  margin: 10px 0px 20px 500px;
+  margin: 10px 0px 20px 0px;
   font-weight: bold;
   border: solid 3px #000000;
+  background-image:url(schedule.jpg) ; 
+  background-position: left; 
+  background-size: 40%;
+  background-repeat:  no-repeat; 
 }
 iframe{
   margin-left: 300px;
