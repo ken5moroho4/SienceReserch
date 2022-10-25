@@ -9,31 +9,36 @@ h1{
    font-weight:bold;
    text-shadow: 0 0 0.2em rgba(0,0,0,1);
   }
-.first_left{
+
+.chirashi{
+  width:100%;
+  height:900px;
+}
+.form{
+  width:100%;
+  height:700px;
+}
+
+/* ここからスマホ用 */
+@media screen and (max-width:390px) {
+  body{
+    display: grid;
+    place-content: center;
+    gap: 1ch;
+    margin: 0;
+  }
+  h1{
+    font-size:3em;
+   }
+   .first_left{
+    width: 100%;
+    margin-left: 280px;
     color: rgb(239, 229, 203); 
-    padding: 0.5em 1em;
-    padding: 10px 500px 20px 0;;
+    padding: 0;
     font-weight: bold;
-    border: solid 3px #000000;
+    border: none;
     background-image:url(study.jpg) ; 
-    background-position: right; 
-    background-size: 50%;
+    background-position: center; 
+    background-size: 30%;
     background-repeat:  no-repeat; 
-}
-.first_left h2,h4{
-    line-height: 0.5;
-}
-.second_right{
-  text-align: right;
-  padding: 0.5em 1em;
-  margin: 10px 0px 20px 0px;
-  font-weight: bold;
-  border: solid 3px #000000;
-  background-image:url(schedule.jpg) ; 
-  background-position: left; 
-  background-size: 40%;
-  background-repeat:  no-repeat; 
-}
-iframe{
-  margin-left: 300px;
 }
