@@ -11,8 +11,10 @@ h1{
   }
 
 .chirashi{
-  width:100%;
+  width:700px;
   height:900px;
+  text-align: center;
+  margin-left: 430px;
 }
 .form{
   width:100%;
@@ -30,6 +32,12 @@ h1{
   h1{
     font-size:3em;
    }
+   .chirashi{
+    width:400px;
+    height:600px;
+    text-align: center;
+    margin-left: 0px;
+  }
    .first_left{
     width: 100%;
     margin-left: 280px;
